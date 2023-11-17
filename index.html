@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lehi | Portfolio</title>
+
+    <link rel="icon" href="./images/lehi-logo.svg" type="image/gif" sizes="16x16">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font-awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <!-- Navbar -->
+      <div id="navbar-container" class="container-fluid fixed-top">
+        <nav id="navbar" class="navbar container navbar-expand-lg navbar-light pt-3">
+        <a class="navbar-brand text-warning" href="#">
+          <img src="./images/lehi-logo.svg" width="40" alt="Logo">
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active pr-3">
+              <a class="nav-link text-white position-relative" href="#landing">About Me</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white position-relative" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white position-relative" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item pr-3">
+              <a class="nav-link text-white position-relative" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      
+
+      <!-- Landing section -->
+      <section id="landing" class="container-fluid min-vh-100">
+        <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <!-- Left content -->
+          <div id="landing-image" class="col-md-4">
+            <div class="position-relative m-auto bg-warning" id="overlay">
+              <img
+                src="images/profile.jpg"
+                class="position-absolute shadow"
+                width="270" height="270"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-md-8 text-white px-md-5" id="caption">
+            <h2 id="title" class="display-4 position-relative">Full-stack Web Developer</h2>
+            <h3 class="pt-4">Hey there, I'm Lehi.</h3>
+            <p class="pt-2">
+              I am a developer from Philippines. I studied Computer Engineering in Samar State University.
+              I'm passionate in programming and building modern web applications.
+            </p>
+          </div>
+        </div>
+    </div>
+    </section>
+      <section id="projects" class="container min-vh-100 mt-5 pt-5 ">
+        <h1 class="text-white position-relative">Projects</h1>
+
+        <div class="row">
+          <!-- Cards -->
+
+          <div class="col-md-6 col-lg-3 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="text-warning ls-wide">Weather City</h5>
+                <p class="card-text text-white">
+                  A weather API that you can search right away.
+                  <div class="float-right">
+                    <a href="">Visit <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
+</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="text-warning">Simple Todo</h5>
+                <p class="card-text text-white">
+                  A simple todo app features of creating tasks.
+                  <div class="float-right">
+                    <a href="" class="">Visit <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
+</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="text-warning">Covid-19 Statistics</h5>
+                <p class="card-text text-white">
+                  Data for world's top cases of corona
+                  virus.
+                  <div class="float-right">
+                    <a href="" class="">Visit <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
+</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="text-warning">System Design</h5>
+                <p class="card-text text-white">
+                  College Project Design.
+                  <div class="float-right">
+                    <a href="" class="">Visit <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
+</a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cards End -->
+      </section>
+
+      <!-- Tools Section -->
+      <section id="tools" class="container min-vh-100 mt-5 pt-5">
+        <h1 class="text-white position-relative">Tools</h1>
+        <div
+          class="d-flex  flex-md-column justify-content-md-end mt-5"
+        >
+          <div id="tools-1" class="tools-container d-flex flex-column flex-md-row">
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/mongo-svgrepo-com.svg" />
+            </div>
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/express-svgrepo-com.svg" />
+            </div>
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/react-svgrepo-com.svg" />
+            </div>
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/node-js-svgrepo-com.svg" />
+            </div>
+          </div>
+          <div id="tools-2" class="tools-container d-flex flex-column flex-md-row">
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/bootstrap-svgrepo-com.svg" />
+            </div>
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/postman-icon-svgrepo-com.svg" />
+            </div>
+
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/vscode-svgrepo-com.svg" />
+            </div>
+            <div class="shadow m-2 p-2">
+              <img width="150" src="images/tools/git-svgrepo-com.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="container mt-5 pt-5">
+        <h1 class="text-white position-relative">Contacts</h1>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name" class="text-warning">Name:</label>
+                <input
+                  type="text"
+                  class="form-control rounded-0"
+                  placeholder="e.g. Lehi Bonafe"
+                  id="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="inputEmail" class="text-warning">Email:</label>
+                <input
+                  type="email"
+                  class="form-control rounded-0"
+                  placeholder="example@gmail.com"
+                  id="inputEmail"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="inputMessage" class="text-warning">Message:</label>
+                <textarea
+                  type="text"
+                  class="form-control rounded-0"
+                  placeholder="What do you want to talk about?"
+                  id="inputMessage"
+                  rows="6"
+                ></textarea>
+              </div>
+
+              <button
+                type="button"
+                class="btn text-white rounded-0 px-4 float-right"
+                data-toggle="modal"
+                data-target="#modalDiv"
+              >
+                Send
+              </button>
+
+              <div
+                class="modal fade"
+                id="modalDiv"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Thank you for visiting!
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Your message has sent successfully.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn rounded-0 text-warning"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Map -->
+          <div class="col-md-6 h-100">
+              <h5 class="text-white mb-auto">Network :</h5>
+            <div class="d-flex flex-column mt-2">
+                <div class="d-flex">
+                  <div>
+                    <a href="https://github.com/lehibonafe" class="inbox text-warning" target="_blank">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="ml-3">
+                    <a href="https://www.linkedin.com/in/lehi-bonafe-855867172/" class="inbox text-warning" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                  </div>
+
+                  <div class="ml-3">
+                    <a href="https://www.facebook.com/fnatic13346/" class="inbox text-warning" target="_blank">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="ml-3">
+                    <a href="https://stackoverflow.com/users/7503737/lehi-bonafe" class="inbox text-warning" target="_blank">
+                      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </a>
+                  </div>
+              </div>
+              
+              <div>
+                   <iframe class="mb-md-5 h-100 w-100 mt-5" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2129.687067492485!2d124.88304528673527!3d11.774679872523507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1700142074391!5m2!1sen!2sph" width="500" height="420" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <!-- Footer section -->
+    <section id="footer" class="text-center">
+       <div class="d-flex justify-content-center pt-3">
+        <div class="mx-1 text-white">Lehi</div>
+        <div class="mx-1 text-white">|</div>
+        <div class="mx-1 text-white">Portfolio &copy; 2023</div>
+       </div>
+      <!-- <div class="d-flex justify-content-center">
+        
+      </div> -->
+    </section>
+  </body>
+
+  <!-- Boostrap Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+</html>

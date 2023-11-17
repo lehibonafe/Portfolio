@@ -1,0 +1,127 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+/* 
+#353148
+#2C283D
+#FFFFFF
+#F9B200
+*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #353148 !important;
+}
+
+h1 {
+  letter-spacing: 0.2rem;
+}
+#overlay {
+  max-width: 270px;
+  height: 270px;
+}
+#overlay > img {
+  top: 35px;
+  left: 35px;
+}
+div[class="card"] {
+  background-color: #2c283d;
+}
+button[type="button"] {
+  background-color: #2c283d;
+}
+#navbar-container {
+  background-color: #2c283d;
+}
+.navbar .nav-link {
+  font-size: 1.1rem;
+}
+
+#footer {
+  background-color: #2c283d;
+  height: 60px;
+  margin-top: 6rem;
+}
+#landing {
+  background-color: #2c283d;
+}
+.navbar-toggler-icon {
+  background-color: #2c283d;
+}
+#landing h2:before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: #ffc115;
+}
+#landing p {
+  line-height: 30px;
+}
+#main h1:after {
+  content: "";
+  position: absolute;
+  width: 5%;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: #ffc115;
+}
+#contact .inbox {
+  font-size: 1.5rem;
+}
+.tools-container > div {
+  transition: transform 0.3s ease;
+}
+.tools-container > div:hover {
+  transform: scale(1.1);
+}
+/* Extra Small (default styles) */
+/* Small */
+@media (max-width: 575.98px) {
+  /* Styles for screens less than 576 pixels */
+  #landing-image {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for screens between 576 and 767.98 pixels */
+  #landing-image {
+    margin-top: 100px;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for screens between 768 and 991.98 pixels */
+  #landing {
+    padding-top: 120px;
+  }
+  #caption {
+    margin: 0 50px;
+  }
+}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for screens between 992 and 1199.98 pixels */
+  #landing {
+    padding-top: 11rem;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+  /* Styles for screens 1200 pixels and above */
+  #landing {
+    padding-top: 11rem;
+  }
+}

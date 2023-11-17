@@ -56,6 +56,9 @@ button[type="button"] {
 #landing {
   background-color: #2c283d;
 }
+#landing p {
+  font-size: 1.2rem;
+}
 .navbar-toggler-icon {
   background-color: #2c283d;
 }

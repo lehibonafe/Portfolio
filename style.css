@@ -31,6 +31,10 @@ h1 {
 }
 div[class="card"] {
   background-color: #2c283d;
+  transition: transform 0.3s ease;
+}
+div[class="card"]:hover {
+  transform: scale(1.2);
 }
 button[type="button"] {
   background-color: #2c283d;
@@ -41,7 +45,9 @@ button[type="button"] {
 .navbar .nav-link {
   font-size: 1.1rem;
 }
-
+.navbar .nav-link:hover {
+  color: #ffc115 !important;
+}
 #footer {
   background-color: #2c283d;
   height: 60px;
@@ -77,12 +83,12 @@ button[type="button"] {
 #contact .inbox {
   font-size: 1.5rem;
 }
-.tools-container > div {
-  transition: transform 0.3s ease;
+#tools-1 > div,
+#tools-2 > div {
+  max-width: 150px;
+  height: auto;
 }
-.tools-container > div:hover {
-  transform: scale(1.1);
-}
+
 /* Extra Small (default styles) */
 /* Small */
 @media (max-width: 575.98px) {
@@ -122,6 +128,6 @@ button[type="button"] {
 @media (min-width: 1200px) {
   /* Styles for screens 1200 pixels and above */
   #landing {
-    padding-top: 11rem;
+    padding-top: 15rem;
   }
 }

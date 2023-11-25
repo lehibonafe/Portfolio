@@ -17,13 +17,15 @@ html {
 body {
   background-color: #ffffff !important;
 }
-
+#main {
+  overflow-x: hidden;
+}
 h1 {
   letter-spacing: 0.2rem;
 }
 #overlay {
-  max-width: 270px;
-  height: 270px;
+  max-width: 300px;
+  height: 300px;
   background-color: #ffffff;
 }
 #overlay > img {
@@ -53,8 +55,8 @@ div[class="card"] {
 
 #landing {
   background-color: #080f0f;
-  padding: 40px 0;
   color: #ffffff;
+  overflow-x: hidden;
 }
 #landing h3 {
   color: #ffc107;
@@ -62,9 +64,7 @@ div[class="card"] {
 #landing p {
   font-size: 1.2rem;
 }
-.navbar-toggler-icon {
-  background-color: #080f0f;
-}
+
 #landing h2:before {
   content: "";
   position: absolute;
@@ -128,9 +128,6 @@ div[class="card"] {
 /* Small */
 @media (max-width: 575.98px) {
   /* Styles for screens less than 576 pixels */
-  #landing-image {
-    margin-top: 100px;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

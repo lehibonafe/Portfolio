@@ -36,19 +36,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
-  <body data-spy="scroll" data-target="#navbar" data-offset="0">
+  <body data-spy="scroll" data-target="#navbar" data-offset="50">
     <div id="main">
       <!-- Navbar -->
-      <div id="navbar-container" class="container-fluid fixed-top pb-2">
-        <nav
-          id="navbar"
-          class="navbar container navbar-expand-lg navbar-light pt-3"
-        >
-          <a class="navbar-brand text-warning" href="#">
+      <div id="navbar-container" class="fixed-top py-2 px-md-5 container-fluid">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
             <img src="./images/brand.svg" width="40" alt="Logo" />
           </a>
           <button
-            class="navbar-toggler text-warning bg-warning"
+            class="navbar-toggler bg-warning"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -69,7 +66,7 @@
               <li class="nav-item pr-3">
                 <a class="nav-link" href="#tools">Tools</a>
               </li>
-              <li class="nav-item pr-3">
+              <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
@@ -79,7 +76,7 @@
 
       <!-- Landing section -->
       <section id="landing" class="container-fluid min-vh-100">
-        <div class="container">
+        <div class="px-3">
           <div class="row justify-content-center align-items-center">
             <!-- Left content -->
             <div
@@ -109,17 +106,17 @@
                 Fullstack Web Developer
               </h2>
               <h3 class="pt-4">Hey there, I'm Lehi.</h3>
-              <p class="pt-3">
+              <p class="pt-3 pr-md-5">
                 I am a developer from Philippines. I'm passionate in programming
                 and building modern web applications.
               </p>
             </div>
           </div>
         </div>
-
-        <!-- Projects Section -->
       </section>
-      <section id="projects" class="container min-vh-100 mt-0">
+
+      <!-- Projects Section -->
+      <section id="projects" class="min-vh-100 pb-5 px-4 px-md-5">
         <h1 class="position-relative">Projects</h1>
 
         <div class="row text-center">
@@ -234,8 +231,8 @@
       </section>
 
       <!-- Tools Section -->
-      <section id="tools" class="container-fluid min-vh-100">
-        <div class="container py-5">
+      <section id="tools" class="container-fluid min-vh-100 px-3 px-md-5">
+        <div>
           <h1 class="text-white position-relative">Tools</h1>
           <div
             class="d-flex flex-md-column justify-content-around justify-content-md-end mt-5"
@@ -330,7 +327,7 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contact" class="container mt-5">
+      <section id="contact" class="px-3 px-md-5">
         <h1 class="position-relative">Contacts</h1>
         <div class="row mt-5">
           <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">

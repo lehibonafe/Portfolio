@@ -310,7 +310,10 @@
                 <img class="w-100 img-fluid" src="images/tools/figma.svg" />
               </div>
               <div class="m-2 p-2">
-                <img class="w-100 img-fluid" src="images/tools/github.svg" />
+                <img
+                  class="w-100 img-fluid"
+                  src="images/tools/sass-svgrepo-com.svg"
+                />
               </div>
 
               <div class="m-2 p-2">
@@ -337,6 +340,7 @@
                   class="form-control rounded-0"
                   placeholder="What's your name?"
                   id="name"
+                  required
                 />
               </div>
 
@@ -347,6 +351,7 @@
                   class="form-control rounded-0"
                   placeholder="What's your email?"
                   id="inputEmail"
+                  required
                 />
               </div>
 
@@ -358,55 +363,21 @@
                   placeholder="What do you want to talk about?"
                   id="inputMessage"
                   rows="6"
+                  required
                 ></textarea>
               </div>
 
-              <button
-                type="button"
-                class="btn rounded-0 px-4 float-right"
-                data-toggle="modal"
-                data-target="#modalDiv"
-              >
+              <button type="submit" class="btn rounded-0 px-4 float-right">
                 Send
               </button>
 
               <div
-                class="modal fade"
+                class="modal fade position-absolute"
                 id="modalDiv"
                 tabindex="-1"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Thank you for visiting!
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Your message has sent successfully.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn rounded-0 text-warning"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ></div>
             </form>
           </div>
 

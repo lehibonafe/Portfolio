@@ -24,11 +24,13 @@ h1 {
   letter-spacing: 0.2rem;
 }
 #overlay {
-  max-width: 300px;
+  width: 300px;
   height: 300px;
   background-color: #ffffff;
 }
 #overlay > img {
+  width: 300px;
+  height: 300px;
   top: 35px;
   left: 35px;
 }
@@ -128,6 +130,9 @@ div[class="card"] {
 /* Small */
 @media (max-width: 575.98px) {
   /* Styles for screens less than 576 pixels */
+  #landing {
+    padding-top: 100px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -143,9 +148,6 @@ div[class="card"] {
   #landing {
     padding-top: 120px;
   }
-  #caption {
-    margin: 0 50px;
-  }
 }
 
 /* Large */
@@ -160,6 +162,6 @@ div[class="card"] {
 @media (min-width: 1200px) {
   /* Styles for screens 1200 pixels and above */
   #landing {
-    padding-top: 15rem;
+    padding-top: 10rem;
   }
 }

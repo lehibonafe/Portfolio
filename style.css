@@ -38,8 +38,6 @@ div[class="card"] {
   background-color: #080f0f;
   transition: transform 0.3s ease;
   border-radius: 0;
-  max-width: 300px;
-  height: auto;
 }
 #navbar-container {
   background-color: #080f0f;
@@ -96,6 +94,11 @@ div[class="card"] {
 }
 #projects h5 {
   color: #bae8e8;
+}
+#projects .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 #contact {
   padding-top: 5rem;

@@ -322,7 +322,7 @@
         <div class="container">
           <div class="row mt-5">
             <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
-              <form>
+              <form id="form">
                 <div class="form-group">
                   <label for="name">Name:</label>
                   <input
@@ -357,17 +357,7 @@
                   ></textarea>
                 </div>
 
-                <button type="submit" class="btn rounded-0 px-4 float-right">
-                  Send
-                </button>
-
-                <div
-                  class="modal fade position-absolute"
-                  id="modalDiv"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                ></div>
+                <input type="submit" value="Submit" id="button" />
               </form>
             </div>
 
@@ -442,6 +432,18 @@
         
       </div> -->
     </section>
+
+    <!--Email JS-->
+    <script src="email.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("sRAQeU1PezObodF-0");
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
     <!-- Boostrap Bundle -->
     <script

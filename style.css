@@ -132,9 +132,11 @@ h1 {
   font-size: 2rem;
   color: #6580e1;
 }
-#contact button {
+#button {
   background-color: #080f0f;
   color: #ffc107;
+  padding: 5px 14px;
+  float: right;
 }
 #contact iframe {
   height: 230px;

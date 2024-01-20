@@ -77,22 +77,13 @@ h1 {
 }
 #landing a {
   color: #ffffff;
-  border: 2px solid #6580e1;
-  padding: 15px 10px;
-  text-decoration: none;
+  padding: 10px 15px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 2px;
   letter-spacing: 2px;
   border-radius: 2px;
-}
-#landing a:hover {
-  background: rgb(101, 128, 225);
-  background: linear-gradient(
-    90deg,
-    rgba(101, 128, 225, 1) 0%,
-    rgba(101, 128, 225, 1) 0%,
-    rgba(9, 9, 121, 1) 100%
-  );
+  border: 2px solid #ffc107;
+  border-radius: 25px;
 }
 
 #projects h1:after,

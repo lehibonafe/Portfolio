@@ -114,6 +114,7 @@ h1 {
 #projects .card {
   transition: transform 0.3s ease-in-out;
   background-color: #080f0f;
+  overflow: hidden;
 }
 #projects .card:hover {
   transform: scale(0.9);
@@ -145,7 +146,7 @@ h1 {
 
 #contact .inbox {
   font-size: 2rem;
-  color: #6580e1;
+  color: #080f0f;
 }
 #button {
   background-color: #080f0f;
@@ -161,13 +162,58 @@ h1 {
 }
 #stacks {
   background-color: #080f0f;
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
 }
-#tools-1 > div,
-#tools-2 > div,
-#tools-3 > div {
-  max-width: 70px;
-  height: auto;
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 80px;
+  margin: 0 40px;
 }
 #footer {
   background-color: #080f0f;

@@ -106,13 +106,37 @@ h1 {
 #projects h5 {
   color: #ffc107;
 }
-#projects .col-12 > div {
+/* #projects .card {
   transition: transform 0.3s ease-in-out;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+} */
+
+#projects .card {
+  transition: transform 0.3s ease-in-out;
+  background-color: #080f0f;
 }
-#projects .col-12 > div:hover {
+#projects .card:hover {
   transform: scale(0.9);
   transition: transform 0.3s ease-in-out;
+}
+#projects a {
+  text-decoration: none;
+}
+#projects p {
+  color: #ffffff;
+}
+#projects .btn {
+  background-color: #080f0f;
+}
+#projects h4 {
+  color: #ffc107;
+}
+
+#projects .stacks > div {
+  background-color: #6580e1;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.8rem;
 }
 #contact {
   padding-top: 5rem;

@@ -9,12 +9,12 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css" />
-
+    3
     <!-- Google Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
@@ -43,6 +43,26 @@
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <div id="social">
+      <div>
+        <a href="https://github.com/lehibonafe/" target="_blank">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/lehi-bonafe/" target="_blank">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://stackoverflow.com/users/7503737/lehi-bonafe"
+          target="_blank"
+        >
+          <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
     <div id="main">
       <!-- Navbar -->
       <div id="navbar-container" class="fixed-top py-2 container-fluid">
@@ -64,13 +84,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item pr-3">
-                <a class="nav-link" href="#landing">About me</a>
+                <a class="nav-link" href="#landing">ABOUT ME</a>
               </li>
               <li class="nav-item pr-3">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#projects">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -108,25 +128,91 @@
                 FULL-STACK WEB DEVELOPER
               </h3>
 
-              <p class="mt-5 pr-md-5">
-                I build modern and elegant websites for individuals and
-                businesses. My journey revolves around the art and science of
-                programming, where I breathe life into ideas and transform them
-                into sleek, modern web experiences. 🚀
+              <p class="mt-5 pt-4 pr-md-5">
+                A fullstack developer navigating the coding landscape from
+                frontend to backend, bringing ideas to life.
               </p>
               <a href="LehiBonafe-resume.pdf" target="_blank">
-                Download CV<i class="fa fa-file-o pl-2" aria-hidden="true"></i
+                GET RESUME<i class="fa fa-file-o pl-2" aria-hidden="true"></i
               ></a>
             </div>
           </div>
         </div>
       </section>
 
+      <div class="timeline">
+        <div
+          class="timeline-container left-container"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <img src="./images/timeline/zuitt.png" alt="zuitt" />
+          <div class="text-box">
+            <h2>Zuitt Coding Bootcamp</h2>
+            <small>November 2023 - January 2024</small>
+            <p>
+              A coding bootcamp trains students to become adept Full-Stack Web
+              Developers within 2 months using MERN stack.
+            </p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div
+          class="timeline-container right-container"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <img src="./images/timeline/urdaneta-temple.jpg" alt="" />
+          <div class="text-box">
+            <h2>Technology Specialist</h2>
+            <small>2021 - 2023</small>
+            <p>
+              Offering innovative solutions to support missionaries in the
+              mission field.
+            </p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+        <div
+          class="timeline-container left-container"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <img src="./images/timeline/ssu.jpg" alt="" />
+          <div class="text-box">
+            <h2>BS in Computer Engineering</h2>
+            <small>2015 - 2020</small>
+            <p>
+              A combination of electrical engineering and computer science. Its
+              provides students with a foundation in basic science, mathematics,
+              software and engineering.
+            </p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div
+          class="timeline-container right-container"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <img src="./images/timeline/bbcs.jpg" alt="" />
+          <div class="text-box">
+            <h2>BBCS Data Systems</h2>
+            <small>2019</small>
+            <p>
+              An internship where I have learned the basics of OS installation,
+              PC/Laptop troubleshooting, and provide solutions for customers.
+            </p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+      </div>
+
       <!-- Projects -->
       <section id="projects" class="pb-5">
         <div class="pb-5 px-4 px-md-5">
           <h1 class="position-relative">projects</h1>
-          <div class="row">
+          <div class="row pt-4">
             <div class="col-6"></div>
             <div class="col-6 text-right">
               <a
@@ -147,11 +233,7 @@
               </a>
             </div>
             <div class="col-12">
-              <div
-                id="carouselExampleIndicators2"
-                class="carousel slide"
-                data-ride="carousel"
-              >
+              <div id="carouselExampleIndicators2" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="row">
@@ -191,11 +273,21 @@
                           data-aos-duration="2000"
                         >
                           <div class="card">
-                            <img
+                            <!-- <img
                               class="img-fluid"
                               alt="100%x280"
                               src="images/projects/todo.png"
-                            />
+                            /> -->
+
+                            <video
+                              autoplay
+                              loop
+                              muted
+                              plays-inline
+                              class="back-video"
+                            >
+                              <source src="./TodoList.mp4" type="video/mp4" />
+                            </video>
                             <div class="card-body">
                               <h4 class="card-title">Todo List</h4>
                               <p class="card-text">
@@ -396,103 +488,45 @@
       <section id="contact" class="px-3 px-md-5">
         <h1 class="position-relative">contact</h1>
 
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
-              <form id="form">
-                <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input
-                    type="text"
-                    class="form-control rounded-0"
-                    placeholder="What's your name?"
-                    id="name"
-                    required
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="inputEmail">Email:</label>
-                  <input
-                    type="email"
-                    class="form-control rounded-0"
-                    placeholder="What's your email?"
-                    id="inputEmail"
-                    required
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="inputMessage">Message:</label>
-                  <textarea
-                    type="text"
-                    class="form-control rounded-0"
-                    placeholder="What do you want to talk about?"
-                    id="inputMessage"
-                    rows="6"
-                    required
-                  ></textarea>
-                </div>
-
-                <input type="submit" value="Submit" id="button" />
-              </form>
-            </div>
-
-            <!-- Map -->
-            <div class="col-md-6 h-100">
-              <h5 class="mb-auto">Source :</h5>
-              <div class="d-flex flex-column mt-2">
-                <div class="d-flex" data-aos="zoom-in" data-aos-duration="2000">
-                  <div>
-                    <a
-                      href="https://github.com/lehibonafe"
-                      class="inbox"
-                      target="_blank"
-                      title="Github"
-                    >
-                      <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                  </div>
-
-                  <div class="ml-3">
-                    <a
-                      href="https://www.linkedin.com/in/lehi-bonafe-855867172/"
-                      class="inbox"
-                      target="_blank"
-                      title="LinkedIn"
-                    >
-                      <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </div>
-
-                  <div class="ml-3">
-                    <a
-                      href="https://stackoverflow.com/users/7503737/lehi-bonafe"
-                      class="inbox"
-                      target="_blank"
-                      title="Stackoverflow"
-                    >
-                      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div
-                  class="d-none d-md-flex"
-                  data-aos="zoom-in"
-                  data-aos-duration="2000"
-                >
-                  <iframe
-                    class="mb-md-5 w-100 mt-5"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2129.687067492485!2d124.88304528673527!3d11.774679872523507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1700142074391!5m2!1sen!2sph"
-                    width="500"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
+        <div class="container pt-5">
+          <div data-aos="zoom-in" data-aos-duration="2000">
+            <form id="form">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  class="form-control rounded-0"
+                  placeholder="What's your name?"
+                  id="name"
+                  required
+                />
               </div>
-            </div>
+
+              <div class="form-group">
+                <label for="inputEmail">Email:</label>
+                <input
+                  type="email"
+                  class="form-control rounded-0"
+                  placeholder="What's your email?"
+                  id="inputEmail"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-4">
+                <label for="inputMessage">Message:</label>
+                <textarea
+                  type="text"
+                  class="form-control rounded-0"
+                  placeholder="What do you want to talk about?"
+                  id="inputMessage"
+                  rows="8"
+                  required
+                ></textarea>
+              </div>
+
+              <input class="w-100" type="submit" value="SUBMIT" id="button" />
+            </form>
           </div>
         </div>
       </section>
@@ -500,7 +534,7 @@
 
     <!-- Footer section -->
     <section id="footer" class="text-center">
-      <div class="d-flex justify-content-center pt-3">
+      <div class="d-flex justify-content-center">
         <div class="mx-1 text-white">Lehi</div>
         <div class="mx-1 text-white">|</div>
         <div class="mx-1 text-white">Portfolio &copy; 2023</div>

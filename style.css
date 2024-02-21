@@ -273,9 +273,9 @@ form #button {
   background-color: #ffc107;
   color: #080f0f;
   padding: 5px 14px;
-  font-family: "Montserrat", sans-serif;
   border: 0;
   float: right;
+  letter-spacing: 2px;
 }
 
 @keyframes slide {
@@ -315,7 +315,7 @@ form #button {
 }
 #footer div {
   background-color: #080f0f;
-  height: 60px;
+  height: 35px;
   margin-top: 2rem;
 }
 #footer .copyright {
@@ -327,9 +327,6 @@ form #button {
 @media (max-width: 575.98px) {
   /* Styles for screens less than 576 pixels */
 
-  #social {
-    position: absolute;
-  }
   #landing {
     padding-top: 100px;
   }

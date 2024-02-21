@@ -208,7 +208,7 @@ h1 {
   background-color: #ffc107;
 }
 #projects {
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 #projects h1 {
   color: #ffffff;
@@ -225,6 +225,9 @@ h1 {
   transition: transform 0.3s ease-in-out;
   background-color: #080f0f;
   overflow: hidden;
+  border: 1px solid #ffc107;
+  height: 500px;
+  margin-top: 50px;
 }
 #projects .card:hover {
   transform: scale(0.9);
@@ -245,7 +248,7 @@ h1 {
 
 #projects .stacks > div {
   border-radius: 10px;
-  color: #ffffff;
+  color: #6580e1;
   font-size: 0.8rem;
 }
 #contact {
@@ -258,7 +261,8 @@ h1 {
 }
 #contact input,
 #contact textarea {
-  background-color: #e3e7f3;
+  background-color: #ffffff;
+  font-size: 0.9rem;
 }
 #contact .inbox {
   font-size: 2rem;
@@ -269,9 +273,8 @@ form #button {
   color: #080f0f;
   padding: 5px 14px;
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 3px;
-  border-radius: 20px;
   border: 0;
+  float: right;
 }
 
 @keyframes slide {

@@ -225,7 +225,6 @@ h1 {
   transition: transform 0.3s ease-in-out;
   background-color: #080f0f;
   overflow: hidden;
-  border: 1px solid #ffc107;
   height: 500px;
   margin-top: 50px;
 }
@@ -250,6 +249,7 @@ h1 {
   border-radius: 10px;
   color: #6580e1;
   font-size: 0.8rem;
+  text-shadow: -1px 3px 17px rgba(101, 128, 225, 1);
 }
 #contact {
   color: #ffffff;

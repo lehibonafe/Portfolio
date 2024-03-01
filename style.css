@@ -222,6 +222,7 @@ h1 {
   overflow: hidden;
   height: 500px;
   margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 #projects .card:hover {
   transform: scale(0.9);
@@ -238,6 +239,7 @@ h1 {
 }
 #projects h4 {
   color: #ffc107;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projects .stacks > div {

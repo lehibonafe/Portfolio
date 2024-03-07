@@ -85,7 +85,7 @@ h1 {
   font-size: 4rem;
 }
 #landing p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 2rem !important;
 }
 #title {
@@ -100,7 +100,6 @@ h1 {
   color: #ffffff;
   padding: 10px 15px;
   display: inline-block;
-  margin-top: 2px;
   letter-spacing: 2px;
   border-radius: 2px;
   border: 1px solid #ffc107;
@@ -108,15 +107,18 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
+  transition: 0.3s;
+  text-decoration: none;
 }
 #landing a:hover {
   background-color: #ffc107;
   color: #080f0f;
+  transition: 0.3s;
 }
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .timeline-container {
   padding: 10px 50px;
@@ -207,29 +209,18 @@ h1 {
   background-color: #ffc107;
 }
 #projects {
-  padding-top: 7rem;
+  padding-top: 12rem;
 }
 #projects h1 {
   color: #ffffff;
 }
-#projects h5 {
+#projects h4 {
   color: #ffc107;
+  font-family: "Schoolbell", cursive;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-#projects .card {
-  background-color: #080f0f;
-  overflow: hidden;
-  height: 600px;
-  margin-top: 50px;
-}
-
-#projects a {
-  text-decoration: none;
-  background-color: #ffc107;
-  border-radius: 10px;
-  padding: 10px;
-  color: #080f0f;
-}
 #projects p {
   color: #ffffff;
   line-height: 30px;
@@ -245,13 +236,18 @@ h1 {
   display: flex;
   justify-content: flex-end;
 }
-#projects .links a:hover {
+#projects .links a {
+  text-decoration: none;
+  padding: 10px;
   color: #ffffff;
+  font-size: 2rem;
+}
+#projects .links a:hover {
+  color: #ffc107;
 }
 #projects .stacks > div {
-  margin-top: 40px;
   border-radius: 10px;
-  color: #6580e1;
+  color: #ffc107;
   font-size: 0.8rem;
   text-shadow: -1px 3px 17px rgba(101, 128, 225, 1);
   font-family: "Montserrat", sans-serif;
@@ -295,7 +291,6 @@ form #button {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  margin: 150px 0;
 }
 
 .logos:before,
@@ -314,7 +309,7 @@ form #button {
 }
 
 .logos-slide img {
-  height: 80px;
+  height: 50px;
   margin: 0 40px;
 }
 #footer div {
@@ -395,7 +390,7 @@ form #button {
 @media (min-width: 1200px) {
   /* Styles for screens 1200 pixels and above */
   #landing {
-    padding-top: 9rem;
+    padding-top: 5.5rem;
   }
 }
 

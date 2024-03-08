@@ -209,7 +209,8 @@ h1 {
   background-color: #ffc107;
 }
 #projects {
-  padding-top: 12rem;
+  margin-top: 7rem;
+  padding-top: 7rem;
 }
 #projects h1 {
   color: #ffffff;

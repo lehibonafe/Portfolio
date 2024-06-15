@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schoolbell&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
 
@@ -84,7 +84,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item pr-3">
-                <a class="nav-link" href="#landing">ABOUT ME</a>
+                <a class="nav-link" href="#landing">HOME</a>
+              </li>
+              <li class="nav-item pr-3">
+                <a class="nav-link" href="#about-me">ABOUT ME</a>
               </li>
               <li class="nav-item pr-3">
                 <a class="nav-link" href="#projects">PROJECTS</a>
@@ -106,7 +109,7 @@
               id="landing-image"
               class="col-lg-4"
               data-aos="zoom-in"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
             >
               <div class="position-relative m-auto" id="overlay">
                 <img
@@ -121,12 +124,22 @@
               class="col-lg-8 py-1 px-md-5"
               id="caption"
               data-aos="fade-left"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
             >
               <h2 class="position-relative">Hey there, I'm Lehi!</h2>
+
               <h3 id="title" class="pt-3 position-relative">
                 FULL-STACK WEB DEVELOPER
               </h3>
+
+              <p class="pr-md-5 mt-5">
+                A fullstack developer navigating the coding landscape from
+                frontend to backend, bringing ideas to life.
+                <img class="brand" src="./images/brand.svg" alt="" />
+              </p>
+              <a href="#projects">
+                VIEW PROJECTS<i class="fa fa-rocket ml-2" aria-hidden="true"></i
+              ></a>
 
               <div class="logos my-4 my-md-0">
                 <div class="logos-slide py-md-5">
@@ -159,86 +172,112 @@
                   <img src="./images/tools/vscode-svgrepo-com.svg" />
                 </div>
               </div>
-              <p class="pr-md-5">
-                A fullstack developer navigating the coding landscape from
-                frontend to backend, bringing ideas to life.
-              </p>
-              <a href="#projects">
-                SEE PROJECTS<i class="fa fa-rocket ml-2" aria-hidden="true"></i
-              ></a>
             </div>
           </div>
         </div>
       </section>
 
-      <div class="timeline mt-5">
-        <div
-          class="timeline-container left-container"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-        >
-          <img src="./images/timeline/zuitt.png" alt="zuitt" />
-          <div class="text-box">
-            <h2>Zuitt Coding Bootcamp</h2>
-            <small>November 2023 - January 2024</small>
-            <p>
-              A coding bootcamp trains students to become adept Full-Stack Web
-              Developers within 2 months using MERN stack.
-            </p>
-            <span class="left-container-arrow"></span>
+      <!-- About Me -->
+      <section id="about-me">
+        <h1 class="position-relative">About Me</h1>
+
+        <div class="px-md-5 px-3 py-5">
+          <div class="row justify-content-center">
+            <div
+              class="col-lg-6"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              <p class="about">
+                As a dedicated and versatile full-stack developer, I bring a
+                robust skill set that spans both front-end and back-end
+                technologies. Currently, I am expanding my expertise by
+                embracing a new challenge as an analyst. This role allows me to
+                leverage my technical background while honing my analytical
+                skills to drive data-driven decision-making. With a passion for
+                problem-solving and a keen eye for detail, I thrive in dynamic
+                environments where I can contribute to innovative solutions and
+                continuous improvement. My ability to seamlessly transition
+                between development and analytical tasks underscores my
+                adaptability and commitment to professional growth.
+              </p>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="3000">
+              <img src="" alt="" />
+            </div>
           </div>
         </div>
-        <div
-          class="timeline-container right-container"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-        >
-          <img src="./images/timeline/urdaneta-temple.jpg" alt="" />
-          <div class="text-box">
-            <h2>Technology Specialist</h2>
-            <small>2021 - 2023</small>
-            <p>
-              Volunteered to provide technical assistance and to mission
-              leaders, mission office staff, and missionaries and assist with
-              other technology-related needs as assigned.
-            </p>
-            <span class="right-container-arrow"></span>
+
+        <div class="timeline mt-5">
+          <div
+            class="timeline-container left-container"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <img src="./images/timeline/zuitt.png" alt="zuitt" />
+            <div class="text-box">
+              <h2>Zuitt Coding Bootcamp</h2>
+              <small>November 2023 - January 2024</small>
+              <p>
+                A coding bootcamp trains students to become adept Full-Stack Web
+                Developers within 2 months using MERN stack.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div
+            class="timeline-container right-container"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <img src="./images/timeline/urdaneta-temple.jpg" alt="" />
+            <div class="text-box">
+              <h2>Technology Specialist</h2>
+              <small>2021 - 2023</small>
+              <p>
+                Volunteered to provide technical assistance and to mission
+                leaders, mission office staff, and missionaries and assist with
+                other technology-related needs as assigned.
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
+          </div>
+          <div
+            class="timeline-container left-container"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <img src="./images/timeline/ssu.jpg" alt="" />
+            <div class="text-box">
+              <h2>BS in Computer Engineering</h2>
+              <small>2015 - 2020</small>
+              <p>
+                A combination of electrical engineering and computer science.
+                Its provides students with a foundation in basic science,
+                mathematics, software and engineering.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div
+            class="timeline-container right-container"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <img src="./images/timeline/bbcs.jpg" alt="" />
+            <div class="text-box">
+              <h2>BBCS Data Systems</h2>
+              <small>2019</small>
+              <p>
+                An internship where I have learned the basics of OS
+                installation, PC/Laptop troubleshooting, and provide solutions
+                for customers.
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
           </div>
         </div>
-        <div
-          class="timeline-container left-container"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-        >
-          <img src="./images/timeline/ssu.jpg" alt="" />
-          <div class="text-box">
-            <h2>BS in Computer Engineering</h2>
-            <small>2015 - 2020</small>
-            <p>
-              A combination of electrical engineering and computer science. Its
-              provides students with a foundation in basic science, mathematics,
-              software and engineering.
-            </p>
-            <span class="left-container-arrow"></span>
-          </div>
-        </div>
-        <div
-          class="timeline-container right-container"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-        >
-          <img src="./images/timeline/bbcs.jpg" alt="" />
-          <div class="text-box">
-            <h2>BBCS Data Systems</h2>
-            <small>2019</small>
-            <p>
-              An internship where I have learned the basics of OS installation,
-              PC/Laptop troubleshooting, and provide solutions for customers.
-            </p>
-            <span class="right-container-arrow"></span>
-          </div>
-        </div>
-      </div>
+      </section>
 
       <!-- Projects -->
       <section id="projects" class="pb-5">
@@ -269,12 +308,39 @@
                   entrepreneurs, startups, and enterprises. Ideal for smooth
                   scaling and optimization.
                 </p>
-                <div class="d-flex justify-content-start stacks">
+                <div class="d-flex justify-content-start stacks mt-4">
                   <div class="mr-2">Mongo DB</div>
                   <div class="px-2 mx-2">React</div>
                   <div class="px-2 mx-2">Node</div>
                   <div class="px-2 mx-2">Express</div>
                   <div class="px-2 mx-2">JWT</div>
+                </div>
+                <div class="d-flex mt-2">
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/mongo-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/react-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/node-js-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/express-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images//tools/json-web-token.svg"
+                    alt=""
+                  />
                 </div>
                 <div class="links">
                   <a
@@ -308,7 +374,7 @@
               />
             </div>
             <div class="col-lg-5">
-              <div class="mt-3 mt-md-0">
+              <div class="mt-5 mt-md-0">
                 <h4>Todo List</h4>
                 <p class="mt-4">
                   A minimalist TodoList app created using React. It helps users
@@ -318,10 +384,33 @@
                 </p>
 
                 <div class="d-flex stacks mt-2">
-                  <div class="mr-2">React</div>
-                  <div class="mr-2">JavaScript</div>
+                  <div class="px-2 mr-2">React</div>
+                  <div class="px-2">JavaScript</div>
                   <div class="px-2 mx-2">HTML</div>
                   <div class="px-2 mx-2">CSS</div>
+                </div>
+
+                <div class="d-flex mt-2">
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/react-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/javascript-logo-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/html.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/css.svg"
+                    alt=""
+                  />
                 </div>
 
                 <div class="links">
@@ -344,7 +433,7 @@
           </div>
 
           <div
-            class="row pt-4 mt-5 justify-content-center"
+            class="row pt-5 mt-5 justify-content-center"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
@@ -357,7 +446,7 @@
               />
             </div>
             <div class="col-lg-5">
-              <div class="mt-3 mt-md-0">
+              <div class="mt-5 mt-md-0">
                 <h4>Weather City</h4>
                 <p class="mt-4">
                   A simple weather website providing current city's weather
@@ -366,11 +455,36 @@
                   the weather on the go.
                 </p>
                 <div class="d-flex stacks mt-2">
+                  <div class="px-2 mx-2">Open Weather API</div>
+                  <div class="px-2 mx-2">JavaScript</div>
+
                   <div class="mr-2">HTML</div>
                   <div class="px-2 mx-2">CSS</div>
-                  <div class="px-2 mx-2">JavaScript</div>
-                  <div class="px-2 mx-2">Open Weather API</div>
                 </div>
+
+                <div class="d-flex mt-2">
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/weather-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/javascript-logo-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/html.svg"
+                    alt=""
+                  />
+                  <img
+                    class="project-tool m-2"
+                    src="./images/tools/css.svg"
+                    alt=""
+                  />
+                </div>
+
                 <div class="links d-flex justify-content-end">
                   <a
                     href="https://lehi-weather-city.netlify.app/"
@@ -441,11 +555,14 @@
     </div>
 
     <!-- Footer section -->
-    <section id="footer" class="text-center">
+    <section id="footer" class="text-center pb-5">
       <div class="d-flex justify-content-center">
         <div class="mx-1 text-white">Lehi</div>
         <div class="mx-1 text-white">|</div>
-        <div class="mx-1 text-white">Portfolio &copy; 2023</div>
+        <div class="mx-1 text-white">
+          Portfolio &copy; 2023
+          <img class="brand" src="./images/brand.svg" alt="logo" />
+        </div>
       </div>
       <!-- <div class="d-flex justify-content-center">
         

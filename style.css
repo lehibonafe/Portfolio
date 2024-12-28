@@ -285,7 +285,8 @@ h1 {
   color: #ffffff;
 }
 #testimonials .card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+  box-shadow: 0px 14px 20px -10px rgba(101, 100, 305, 1) !important;
+  height: 380px !important;
 }
 #testimonials .card-title {
   color: #e8f0ff;
@@ -433,6 +434,10 @@ form #button {
     border-right: 15px solid #6580e1;
     border-left: 0;
     left: -15px;
+  }
+  .carousel-item {
+    height: 700px !important;
+    scroll-behavior: auto;
   }
 }
 

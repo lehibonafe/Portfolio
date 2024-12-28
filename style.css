@@ -89,7 +89,8 @@ h1 {
 }
 #landing p {
   font-size: 1.2rem;
-  line-height: 2rem !important;
+  line-height: 2rem ca !important;
+  color: #ffffff;
 }
 #title {
   color: #ffc107;
@@ -105,17 +106,21 @@ h1 {
   display: inline-block;
   letter-spacing: 2px;
   border-radius: 2px;
-  border: 1px solid #ffc107;
-  border-radius: 25px;
+  border-width: 4px 1px 1px 4px; /* Top, Right, Bottom, Left */
+  border-style: solid;
+  border-color: #6580e1;
+
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
-  transition: 0.3s;
   text-decoration: none;
+  background-color: #080f0f;
+
+  transition: 0.3s;
 }
+
 #landing a:hover {
-  background-color: #ffc107;
-  color: #080f0f;
+  color: #e8f0ff;
   transition: 0.3s;
 }
 
@@ -128,6 +133,7 @@ h1 {
   font-size: 1.1rem;
   text-align: center;
   line-height: 2.3rem;
+  color: #e8f0ff;
 }
 .timeline {
   position: relative;
@@ -197,7 +203,7 @@ h1 {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #ffc107;
+  border-left: 15px solid #6580e1;
   right: -14px;
 }
 .right-container-arrow {
@@ -208,11 +214,12 @@ h1 {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #ffc107;
+  border-right: 15px solid #6580e1;
   left: -14px;
 }
 #about-me h1:after,
 #projects h1:after,
+#testimonials h1::after,
 #contact h1:after,
 #stacks h1:after {
   content: "";
@@ -231,7 +238,7 @@ h1 {
   color: #ffffff;
 }
 #projects h4 {
-  color: #ffc107;
+  color: #6580e1;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -243,13 +250,11 @@ h1 {
 #projects .btn {
   background-color: #080f0f;
 }
-#projects h4 {
-  color: #ffc107;
-}
 
 #projects .links {
   display: flex;
   justify-content: flex-end;
+  z-index: 10;
 }
 #projects .links a {
   text-decoration: none;
@@ -270,9 +275,43 @@ h1 {
 #projects .project-tool {
   width: 50px;
 }
+
+#testimonials h1 {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+#testimonials h5 {
+  color: #6580e1;
+}
+#testimonials .card {
+  background-color: #080f0f;
+  border: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#testimonials p {
+  color: #ffffff;
+}
+#testimonials .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+}
+#testimonials .card-title {
+  color: #e8f0ff;
+}
+
+.stars i {
+  font-size: 1.2rem;
+  margin: 0 2px;
+}
+
 #contact {
   color: #ffffff;
   padding-top: 7rem;
+}
+#contact h6 {
+  margin-top: 2rem;
+  text-align: center;
+  color: #6580e1;
 }
 #contact form {
   max-width: 600px;
@@ -280,7 +319,7 @@ h1 {
 }
 #contact input,
 #contact textarea {
-  background-color: #ffffff;
+  background-color: #e8f0ff;
   font-size: 0.9rem;
 }
 #contact .inbox {
@@ -338,7 +377,25 @@ form #button {
 #footer .copyright {
   color: #6580e1;
 }
-
+.carousel {
+  margin-top: 5rem;
+}
+.carousel-indicators > li {
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  color: #6580e1;
+}
+.col-lg-5 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+.carousel-item {
+  height: 420px !important;
+  scroll-behavior: auto;
+}
 /* Extra Small (default styles) */
 /* Small */
 @media (max-width: 575.98px) {
@@ -372,7 +429,7 @@ form #button {
 
   .left-container-arrow,
   .right-container-arrow {
-    border-right: 15px solid #ffc107;
+    border-right: 15px solid #6580e1;
     border-left: 0;
     left: -15px;
   }
@@ -382,6 +439,9 @@ form #button {
   /* Styles for screens between 576 and 767.98 pixels */
   #landing-image {
     margin-top: 100px;
+  }
+  .carousel-item {
+    height: 800px !important;
   }
 }
 
@@ -393,6 +453,9 @@ form #button {
   }
   #caption {
     margin-top: 50px;
+  }
+  .carousel-item {
+    height: 600px !important;
   }
 }
 
